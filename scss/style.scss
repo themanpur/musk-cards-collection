@@ -1,0 +1,16 @@
+@import "variables_overrides.scss";   // <-- ajouter cette ligne tout en haut du fichier
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+hr {
+    border: none;
+    border-top: $primary;
+    color: $primary;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.text-blue-500{
+    color: $blue-500;
+  }
